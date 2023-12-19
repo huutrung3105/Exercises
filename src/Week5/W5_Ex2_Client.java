@@ -32,7 +32,7 @@ public class W5_Ex2_Client {
                     String reply = inStream.readLine();
                     System.out.println("Server phản hồi: " + reply);
                 }
-                System.out.println("test thử dòng này");
+
                 input = "";
             }
             System.out.println("Client đóng kết nối!");

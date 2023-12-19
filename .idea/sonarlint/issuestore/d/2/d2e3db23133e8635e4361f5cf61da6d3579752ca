@@ -9,5 +9,4 @@ G	java:S106"+Replace this use of System.out by a logger.(àÙÒ8 ¶ûêÇ1
 r
 java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(ìì’u8ò»…ëÇ1
 G	java:S106!"+Replace this use of System.out by a logger.(ñ¤Û¼8£¶ûêÇ1
-L	java:S106#"+Replace this use of System.out by a logger.(ß¡í‚ùÿÿÿÿ8¤¶ûêÇ1
 G	java:S106&"+Replace this use of System.out by a logger.(Øµ˜8 ¾ºëÇ1
