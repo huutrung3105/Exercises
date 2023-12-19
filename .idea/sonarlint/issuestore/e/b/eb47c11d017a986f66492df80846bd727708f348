@@ -1,0 +1,13 @@
+
+P
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‹ØŸK
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æ¥ÀÉüÿÿÿÿ
+`
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(‘½Îüÿÿÿÿ
+V
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ŸüÛX
+@	java:S106"+Replace this use of System.out by a logger.(ñ‰¡¬
+@	java:S106"+Replace this use of System.out by a logger.(ó¹·ï
+E	java:S106 "+Replace this use of System.out by a logger.(Œ¶°áùÿÿÿÿ
+@	java:S106$"+Replace this use of System.err by a logger.(ß°‘«

@@ -1,0 +1,19 @@
+
+o
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(×…›ˆ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ª÷Ê
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä‡÷ğúÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¡şÏÖøÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+:
+java:S16590"Declare "x" on a separate line.(›¹Šüÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(º¦v
+E	java:S106"+Replace this use of System.out by a logger.(š„úíÿÿÿÿÿ
+E	java:S106&"+Replace this use of System.out by a logger.(µß¤¹ıÿÿÿÿ
+E	java:S106."+Replace this use of System.out by a logger.(ÁÀİìÿÿÿÿÿ
+@	java:S1061"+Replace this use of System.out by a logger.(ô÷š“
+J
+java:S2864?"4Iterate over the "entrySet" instead of the "keySet".(€òÊ
+E	java:S106@"+Replace this use of System.out by a logger.(ßŞ•Æüÿÿÿÿ

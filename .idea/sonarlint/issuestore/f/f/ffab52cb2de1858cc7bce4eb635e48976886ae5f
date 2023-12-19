@@ -1,0 +1,11 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÒÄÔùÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÕË¸‰üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÛ…—üÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¦ä¸è
+g
+java:S5998"LRefactor this repetition that can lead to a stack overflow for large inputs.(¨ÒÄÔùÿÿÿÿ
+<	java:S131!""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(×æÙÈûÿÿÿÿ
+O
+java:S1128	"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ

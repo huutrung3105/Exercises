@@ -1,0 +1,11 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®ÿÚª
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÃİßşÿÿÿÿ
+Z
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(ò©·Ù
+E	java:S106"+Replace this use of System.out by a logger.(µ¡­ãûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¥³å÷şÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(æ¥³¼ùÿÿÿÿ
+@	java:S106#"+Replace this use of System.out by a logger.(Ñ¿Áâ
+@	java:S106&"+Replace this use of System.out by a logger.(ñ¤Û¼
+@	java:S106)"+Replace this use of System.out by a logger.(Øµ˜

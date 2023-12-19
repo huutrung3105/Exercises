@@ -1,0 +1,10 @@
+
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰´»Ôúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÛ…—üÿÿÿÿ
+g
+java:S2095#"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(©¯»ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ıËøÕşÿÿÿÿ
+E	java:S106*"+Replace this use of System.out by a logger.(£íåúÿÿÿÿ
+E	java:S106/"+Replace this use of System.out by a logger.(—€”âøÿÿÿÿ
+@	java:S1063"+Replace this use of System.err by a logger.(Ú™«ı

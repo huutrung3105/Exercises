@@ -1,0 +1,10 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óìü
+±
+java:S1598"•This file "Example7_Client.java" should be located in "Week4" directory, not in "/Users/nguyenhuutrung/NetBeansProjects/Exercises/src/Week4/Example".(ùÃİßşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÃİßşÿÿÿÿ
+Z
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(ò©·Ù
+E	java:S106"+Replace this use of System.out by a logger.(„Ïşÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'java.net.ServerSocket'.(ĞúÙÿÿÿÿÿ

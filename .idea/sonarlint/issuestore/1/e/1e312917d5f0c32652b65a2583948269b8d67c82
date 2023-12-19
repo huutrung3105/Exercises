@@ -1,0 +1,10 @@
+
+©
+java:S1598"This file "Server1.java" should be located in "Week4" directory, not in "/Users/nguyenhuutrung/NetBeansProjects/Exercises/src/Week4/Example".(ùÃİßşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÃİßşÿÿÿÿ
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(Ù«×ıûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(”Â·
+E	java:S106"+Replace this use of System.out by a logger.(ŠŞÄşÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(úêÂd
+E	java:S106"+Replace this use of System.out by a logger.(È‘Œıÿÿÿÿ

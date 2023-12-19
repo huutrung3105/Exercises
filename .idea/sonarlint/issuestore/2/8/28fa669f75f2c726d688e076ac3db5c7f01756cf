@@ -1,0 +1,18 @@
+
+j
+java:S1192"UDefine a constant instead of duplicating this literal "Server Ä‘Ã£ nháº­n: " 3 times.(úêÂd
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÄÍÿÙúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÃİßşÿÿÿÿ
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(Ù«×ıûÿÿÿÿ
+<
+java:S1659"!Declare "end" on a separate line.(Øıèÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(”Â·
+E	java:S106"+Replace this use of System.out by a logger.(ŠŞÄşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ĞÑëøÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(úêÂd
+E	java:S106!"+Replace this use of System.out by a logger.(÷ºâÿÿÿÿÿÿ
+?	java:S106*"+Replace this use of System.out by a logger.(úêÂd
+?	java:S1061"+Replace this use of System.out by a logger.(úêÂd
+E	java:S1065"+Replace this use of System.out by a logger.(Ãšİêùÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(È‘Œıÿÿÿÿ

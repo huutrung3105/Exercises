@@ -1,0 +1,18 @@
+
+P
+java:S1141 "5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ü‰÷Šıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì£Ã
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(Ù«×ıûÿÿÿÿ
+g
+java:S2095""LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(©¯»ûÿÿÿÿ
+h
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘
+@	java:S106"+Replace this use of System.out by a logger.(”Â·
+E	java:S106"+Replace this use of System.out by a logger.(ŠŞÄşÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(úêÂd
+E	java:S106:"+Replace this use of System.out by a logger.(È‘Œıÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ

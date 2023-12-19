@@ -1,0 +1,16 @@
+
+g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ğÍ£úøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÃİßşÿÿÿÿ
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(Ù«×ıûÿÿÿÿ
+h
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Çµí‘
+@	java:S106"+Replace this use of System.out by a logger.(”Â·
+E	java:S106"+Replace this use of System.out by a logger.(ŠŞÄşÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(úêÂd
+T
+java:S1659">Declare "i" and all following declarations on a separate line.(€íÁµ
+J
+java:S2864)"4Iterate over the "entrySet" instead of the "keySet".(€òÊ
+E	java:S1062"+Replace this use of System.out by a logger.(È‘Œıÿÿÿÿ
