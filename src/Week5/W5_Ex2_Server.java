@@ -23,7 +23,7 @@ public class W5_Ex2_Server {
             e.printStackTrace();
         }
     }
-//kjsdhfkjsd
+//kjsdhfkjsdsdf
     private boolean startServer() {
         try {
             client = server.accept();
