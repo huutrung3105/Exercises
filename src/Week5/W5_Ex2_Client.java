@@ -4,41 +4,64 @@ import java.io.*;
 import java.net.Socket;
 
 public class W5_Ex2_Client {
-    public static void main(String[] args) {
-        String host = "localhost";
-        int port = 12345;
-        try {
-            Socket socket = new Socket(host, port);
-            // Gắn kết input stream và output stream của socket
-            BufferedReader inStream = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            BufferedWriter outStream = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
-            BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
+    Socket socket;
+    BufferedReader inStream, stdIn;
+    BufferedWriter outStream;
 
-            String input = "";
-            String pattern = "/\\breq (?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b/";
-            while(!input.equals("exit")){
-                // Nhận dữ liệu từ bàn phím -> socket qua output stream
-                while(!input.equals("hello")) {
-                    System.out.println("Tra thông tin server: hello");
-                    System.out.println("Tra cứu IP (x là một địa chỉ IP public): req x");
-                    System.out.print("Mời bạn nhập theo hướng dẫn: ");
-                    input = stdIn.readLine();
-                    if (pattern.matches(input)) break;
-                }
-                outStream.write(input + "\n");
-                outStream.flush();
-                // Chờ nhaận phản hồi từ server qua input stream
-                while (!inStream.lines().equals("")) {
-                    String reply = inStream.readLine();
-                    System.out.println("Server phản hồi: " + reply);
-                }
-
-                input = "";
-            }
-            System.out.println("Client đóng kết nối!");
-            socket.close();
+    // Constructor của client
+    public W5_Ex2_Client(String host, int port){
+        try{
+            socket = new Socket(host, port);
+            System.out.println("Client đã kết nối đến server " + socket.getRemoteSocketAddress());
+            // Gắn kết stream
+            inStream = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            outStream = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+            stdIn = new BufferedReader(new InputStreamReader(System.in));
         }catch(IOException e){
             e.printStackTrace();
         }
+    }
+
+    // Phương thức đóng socket. Cần đóng theo thứ tự các biến gắn kết stream -> stream
+    private void closeSocket(){
+        try {
+            stdIn.close();
+            inStream.close();
+            outStream.close();
+            socket.close();
+            System.out.println("Client đóng socket");
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    // Phương thức xử lý dữ liệu nhận từ bàn phím -> stream -> server
+    private void handleData(){
+        try{
+            while(true){
+                // Nhận dữ liệu từ bàn phím (standard input)
+                System.out.print("Nhập dữ liệu: ");
+                String input = stdIn.readLine();
+                // Ghi vào stream
+                outStream.write(input + "\n");
+                outStream.flush();
+                // Chờ nhận dữ liệu từ server
+                String data = inStream.readLine();
+                do{
+                    System.out.println("\t" + data);
+                    data = inStream.readLine();
+                }while(!data.equals("-END-"));
+                // Xử lý nếu người dùng nhập chuỗi bye
+                if(input.equals("bye"))
+                    break;
+            }
+            closeSocket();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    public static void main(String[] args) {
+        W5_Ex2_Client client = new W5_Ex2_Client("localhost", 12345);
+        client.handleData();
     }
 }
