@@ -14,7 +14,7 @@ public class W5_Ex2_Server {
     BufferedWriter outStream; // Biến ghi dữ liệu vào stream socket
     ServerSocket server;
     Socket client;
-    //test 12345
+
     public W5_Ex2_Server(int port) {
         try {
             server = new ServerSocket(port);
@@ -23,7 +23,7 @@ public class W5_Ex2_Server {
             e.printStackTrace();
         }
     }
-
+//kjsdhfkjsd
     private boolean startServer() {
         try {
             client = server.accept();
