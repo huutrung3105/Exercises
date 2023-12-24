@@ -3,7 +3,6 @@ package Week5;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class W5_Ex1_Server {

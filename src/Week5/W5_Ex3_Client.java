@@ -3,18 +3,13 @@ package Week5;
 import java.io.*;
 import java.net.Socket;
 
-public class W5_Ex2_Client {
+public class W5_Ex3_Client {
     Socket socket;
     BufferedReader inStream, stdIn;
     BufferedWriter outStream;
 
-    public static void main(String[] args) {
-        W5_Ex2_Client client = new W5_Ex2_Client("localhost", 12345);
-        client.handleData();
-    }
-
     // Constructor của client
-    public W5_Ex2_Client(String host, int port){
+    public W5_Ex3_Client(String host, int port){
         try{
             socket = new Socket(host, port);
             System.out.println("Client đã kết nối đến server " + socket.getRemoteSocketAddress());
@@ -64,5 +59,9 @@ public class W5_Ex2_Client {
         }catch (IOException e){
             e.printStackTrace();
         }
+    }
+    public static void main(String[] args) {
+        W5_Ex3_Client client = new W5_Ex3_Client("localhost", 12345);
+        client.handleData();
     }
 }
